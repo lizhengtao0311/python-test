@@ -1,6 +1,6 @@
 Jenkinsfile (Declarative Pipeline)
 pipeline {
-    agent { docker 'python:3.5.1' }
+    agent { docker 'python:2.7.0' }
     stages {
         stage('build') {
             steps {
